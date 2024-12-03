@@ -1,12 +1,12 @@
 import random
-# while True:
-#     try:
-#         n = int(input('Введите размер матрицы NxN: '))
-#         if n > 0:
-#             break
-#     except Exception:
-#         print('Ошибка! Попробуйте еще раз.')
-n = 3
+while True:
+    try:
+        n = int(input('Введите размер матрицы NxN: '))
+        if n > 0:
+            break
+    except Exception:
+        print('Ошибка! Попробуйте еще раз.')
+
 a = [[random.randint(-20,20) for i in range(n)] for j in range(n)]
 
 print('Исходный список')
@@ -17,6 +17,15 @@ for i in range(n):
 
 s = 0
 for i in range(n):
-    s += (a[i][n-1-i])
-print(s)
+    for j in range(n-1-i):
+        s += (a[i][j])
+print('Сумма элементов выше побочной диагонали:',s)
+
+
+
+# сумма элементов побочной диагонали
+# s = 0
+# for i in range(n):
+#     s += (a[i][n-1-i])
+# print(s)
 
