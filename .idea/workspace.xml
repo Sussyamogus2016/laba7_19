@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e0ad0c-7235-4361-898b-c42bccbdcf0b" name="Changes" comment="com1">
-      <change afterPath="$PROJECT_DIR$/zadanie2.py" afterDir="false" />
+    <list default="true" id="50e0ad0c-7235-4361-898b-c42bccbdcf0b" name="Changes" comment="com2">
+      <change afterPath="$PROJECT_DIR$/zadanie3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "Python.zadanie1.executor": "Run",
     "Python.zadanie2.executor": "Run",
+    "Python.zadanie3.executor": "Run",
     "Python.Лаба 7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -68,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733232140092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="com2">
+      <option name="closed" value="true" />
+      <created>1733237300262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733237300262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="com1" />
-    <option name="LAST_COMMIT_MESSAGE" value="com1" />
+    <MESSAGE value="com2" />
+    <option name="LAST_COMMIT_MESSAGE" value="com2" />
   </component>
 </project>
