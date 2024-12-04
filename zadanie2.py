@@ -25,17 +25,6 @@ for i in range(m):
         print(a[i][j], end = ' ')
     print()
 
-# c = 0
-# for j in range(m+1):
-#     flag = 0
-#     for i in range(n-1):
-#         if a[i][j] == 0:
-#             flag = 1
-#             break
-#     if flag == 0:
-#         c += 1
-# print('Кол-во столбцов, не содержащих нулевых элементов:', c)
-
 stolb = c = 0
 el = []
 while stolb <= n-1:
@@ -50,3 +39,15 @@ while stolb <= n-1:
     el = []
     stolb += 1
 print(c)
+
+
+# c = 0
+# for j in range(m+1):
+#     flag = 0
+#     for i in range(n-1):
+#         if a[i][j] == 0:
+#             flag = 1
+#             break
+#     if flag == 0:
+#         c += 1
+# print('Кол-во столбцов, не содержащих нулевых элементов:', c)
