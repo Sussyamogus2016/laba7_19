@@ -36,19 +36,17 @@ for i in range(m):
 #         c += 1
 # print('Кол-во столбцов, не содержащих нулевых элементов:', c)
 
-stolb = 0
+stolb = c = 0
 el = []
-c = 0
 while stolb <= n-1:
-    for i in a:
-        el.append(i[stolb])
+    for row in a:
+        el.append(row[stolb])
     flag = 0
-    for i in el:
-        if i == 0:
+    for elem in el:
+        if elem == 0:
             flag = 1
     if flag == 0:
         c += 1
     el = []
     stolb += 1
 print(c)
-
