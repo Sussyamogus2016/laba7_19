@@ -11,18 +11,18 @@ while True:
 
 a = [[random.randint(-20,20) for i in range(n)] for j in range(n)]
 
-# print('Исходный список:')
-# for i in range(n):
-#     for j in range(len(a[i])):
-#         print(a[i][j], end = ' ')
-#     print()
-#
-# s = 0
-# for i in range(n):
-#     for j in range(n-1-i):
-#         s += (a[i][j])
-# print('Сумма элементов выше побочной диагонали:',s)
-#
+print('Исходный список:')
+for i in range(n):
+    for j in range(len(a[i])):
+        print(a[i][j], end = ' ')
+    print()
+
+s = 0
+for i in range(n):
+    for j in range(n-1-i):
+        s += (a[i][j])
+print('Сумма элементов выше побочной диагонали:',s)
+
 
 
 
